@@ -1,4 +1,17 @@
-.hs1 {
-    color:blue;
-    border: 5px solid violet;
+:root {
+    --blanco:#fff;
+    --oscuro:#212121;
+    --primario:#ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
+}
+
+
+
+.navegacion-principal{
+    text-align: center;
+    background-color: var(--secundario);
+    font-weight: bold;
+    color: var(--blanco);
+
 }
