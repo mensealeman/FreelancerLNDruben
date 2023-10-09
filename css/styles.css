@@ -8,10 +8,44 @@
 
 
 
-.navegacion-principal{
-    text-align: center;
-    background-color: var(--secundario);
-    font-weight: bold;
-    color: var(--blanco);
+.titulo {
+    font-size: 2.7rem;
 
+}
+
+.titulo span{
+    font-size: 1rem;
+
+}
+
+
+h1, h2, h3 {
+        text-align: center;
+}
+
+.background-color {
+        background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    background-color: var(--secundario);
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegacion-principal a{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--blanco);
+    padding: 6px;
+    text-decoration: none;
+}
+
+.navegacion-principal a:hover {
+    text-decoration: none;
+    color: var(--oscuro);
+    background-color:var(--primario);
 }
