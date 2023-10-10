@@ -10,12 +10,10 @@
 
 .titulo {
     font-size: 2.7rem;
-
-}
+}    
 
 .titulo span{
     font-size: 1rem;
-
 }
 
 
@@ -29,7 +27,7 @@ h1, h2, h3 {
 
 .navegacion-principal{
     background-color: var(--secundario);
-    margin: 0px auto;
+    margin: 0px auto; /* para centrar la barra*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,8 +42,14 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
-.navegacion-principal a:hover {
-    text-decoration: none;
+.navegacion-principal a:hover{
+    background-color: var(--primario);
     color: var(--oscuro);
-    background-color:var(--primario);
+
 }
+
+.mainPhotoHero {
+    background-image: url(/img/hero.jpg);
+  
+}
+
