@@ -11,9 +11,9 @@ html {
     box-sizing:border-box;
 }
 
-*, *:before, *:after{
+*, *:before, *:after{ /*Esto hace que no cambie el tamaño de las cajas*/
     box-sizing: inherit;
-}
+} 
 
 body {
     font-family: 'krub', sans-serif;
@@ -126,9 +126,20 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
+.partecentral {
+    display: flex;
+}
 
+.columna1, .columna2, .columna3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-
+.columna2 svg {
+    margin: 5px;
+}
 
 
 @media (max-width:768px){
