@@ -141,6 +141,19 @@ h1, h2, h3 {
     margin: 5px;
 }
 
+.iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primario);
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+}
+
+main p {
+    text-align: center;
+}
 
 @media (max-width:768px){
     .navegacion-principal{
