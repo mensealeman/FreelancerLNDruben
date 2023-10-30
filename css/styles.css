@@ -157,6 +157,7 @@ h1, h2, h3 {
 
 main p {
     text-align: center;
+    line-height: 1.7;
 }
 
 .sombra {
@@ -279,6 +280,7 @@ main p {
 }
 
 .contact-form form div button {
+    cursor: pointer;
     margin: 0 20rem;
 }
 
@@ -329,12 +331,22 @@ grid-template-columns: 1fr(cada fr es 1 columna) 1fr 1fr ó 20% 20% 60%
         justify-content: center;
     }
 
-    .content {
-        display: grid;
-        grid-column: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form form h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form form div textarea {
+        margin-right: 0rem;
+    }
+
+    .contact-form form div button {
+        cursor: pointer;
+        margin-bottom: 3rem;
     }
 
 }
