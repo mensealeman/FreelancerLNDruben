@@ -338,6 +338,7 @@ grid-template-columns: 1fr(cada fr es 1 columna) 1fr 1fr ó 20% 20% 60%
 
     .contact-form form h3 {
         font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     .contact-form form div textarea {
@@ -350,4 +351,3 @@ grid-template-columns: 1fr(cada fr es 1 columna) 1fr 1fr ó 20% 20% 60%
     }
 
 }
-
